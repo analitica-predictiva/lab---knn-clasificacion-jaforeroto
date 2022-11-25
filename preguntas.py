@@ -2,13 +2,16 @@
 Clasificación usando k-NN
 -----------------------------------------------------------------------------------------
 """
+
 import pandas as pd
 
 
 def pregunta_01():
+
     """
     Complete el código presentado a continuación.
     """
+
     # Lea el archivo de datos
     df = pd.read_csv("house-votes-84.csv", sep=",")
 
@@ -39,9 +42,11 @@ def pregunta_01():
 
 
 def pregunta_02():
+
     """
     Complete el código presentado a continuación.
     """
+    
     # Lea el archivo de datos
     df = pd.read_csv("house-votes-84.csv", sep=",")
 
